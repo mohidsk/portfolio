@@ -1,7 +1,7 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
-  "homepage": "https://mohidsk.github.io/SadiqPortfolio",
+  "homepage": "https://mohidsk.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,8 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
