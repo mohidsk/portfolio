@@ -85,12 +85,12 @@ const Index = () => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = `/sadiq_resume_2025_03_10.pdf`;  // put your file name here
-    link.download = 'ShaikSadiqResume.pdf'; // optional: specify the downloaded file name
-    link.click();
-  };
+const handleDownload = () => {
+  const link = document.createElement('a');
+  link.href = `${import.meta.env.BASE_URL}sadiq_resume_2025_03_10.pdf`;
+  link.download = 'ShaikSadiqResume.pdf';
+  link.click();
+};
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
