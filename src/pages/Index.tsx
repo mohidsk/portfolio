@@ -87,7 +87,7 @@ const Index = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = `/213J1A42B2_SK_SADIQ_RESUME.pdf`;  // put your file name here
+    link.href = `/sadiq_resume_2025_03_10.pdf`;  // put your file name here
     link.download = 'ShaikSadiqResume.pdf'; // optional: specify the downloaded file name
     link.click();
   };
