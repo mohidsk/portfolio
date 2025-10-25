@@ -7,8 +7,8 @@ import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Download, Code, Sm
 
 const Index = () => {
   const skills = {
-    "Programming Languages": ["Dart", "Go", "Python", "HTML", "CSS", "JavaScript"],
-    "Frameworks": ["Flutter", "React.js", "Next.js", "Go Fiber"],
+    "Programming Languages": ["Dart", "Go", "Python", "HTML", "CSS", "JavaScript", "Kotlin"],
+    "Frameworks": ["Flutter", "React.js", "Next.js", "Android Native With Compose", "Go Fiber"],
     "Tools": ["Docker", "GitHub", "Ngrok", "gRPC", "Figma", "Postman"],
     "Dev Ops": ["Linux", "DigitalOcean"]
   };
@@ -19,6 +19,7 @@ const Index = () => {
       company: "SHORTSQUEEZE PRIVATE LIMITED",
       period: "Feb 2024 - Present",
       description: [
+        "Android Native With compose",
         "Flutter mobile app development",
         "Next.js web development", 
         "Backend server development using gRPC and Go"
